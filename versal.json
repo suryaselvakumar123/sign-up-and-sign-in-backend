@@ -1,0 +1,19 @@
+{
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "command": "node server.js"
+    },
+    "routes": [
+      {
+        "src": "/signup",
+        "dest": "server.js"
+      },
+      {
+        "src": "/signin",
+        "dest": "server.js"
+      }
+    ]
+  }
+  
